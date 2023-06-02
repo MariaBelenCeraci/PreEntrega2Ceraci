@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script defer src="./js/productos.js"></script>
+    <script defer src="./js/main.js"></script>
+    <title>Bemariart</title>
+</head>
+<body>
+
+<!-- Navbar -------------------------------------------------------------------------------------------------->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.svg" class="logo" alt="El logo de Estella, un icono de una pluma dentro de un círculo">
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="menu-hamburguesa" src="./img/navbar-hamburger.svg" alt="Icono de menú">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active link-actual" aria-current="page" href=#hero>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#acerca>Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#tienda>Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#contacto-seccion>Contacto</a>
+                    </li>
+                    <li>
+                        <div class="carrito-container">
+                            <img class="icon-carrito" src="./img/carrito-icono.svg" alt="">
+                            <p>0 items</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section -------------------------------------------------------------------------------------------------->
+
+    <header id="hero" class="hero-section container-md section-margin">
+        <div class="text-portada">
+            <h1 class="portada-h1">Ilustración digital & Diseño Gráfico</h1>
+            <p>Bienvenido a mi tienda! Aquí encontrarás una gran diversidad de productos con hermosas ilustraciones inspiradas en la naturaleza. </p>
+            <button class="cta-hero">Mi tienda</button>
+        </div>
+            
+        <div class="img-portada-container">
+                <img class="img-portada" src="./img/img_portada.png" alt="">
+        </div>
+    </header>
+
+<!-- Acerca de -------------------------------------------------------------------------------------------------->
+    <section id="acerca" class="section-acerca section-margin">
+        <div class="linea-acerca"></div>
+        <div class="container-acerca">
+            <div class="titulo-acerca">
+                <h5>Bemariart</h5>
+                <h2>Ilustrando la naturaleza</h2>
+                <p>La temática de mis ilustraciones se encuentra fuertemente orientada a los animales y las plantas, además de paisajes naturales.
+                </p>
+            </div>
+
+            <div class="contenido-acerca">
+                <div class="textos-acerca">
+                    <div class="p1-acerca parrafo-acerca">
+                        <h5>Ilustración digital</h5>
+                        <p>Todas mis ilustraciones las realizo de forma digital, utilizando Adobe Photoshop y una tableta Wacom Intous M. A través del uso de una superposición de capas y pinceles con diferentes texturas, busco darles una apariencia más tradicional a mis ilustraciones.</p>
+                    </div>
+
+                    <div class="parrafo-acerca">
+                        <h5>Naturaleza</h5>
+                        <p>Uno de mis pasatiempos favoritos y ir a caminar al bosque. Los hermosos paisajes de Bariloche, donde viví toda mi vida, son una gran fuente de inspiración para mi. </p>
+                    </div>
+
+                    <div class="trabajemos-juntos">
+                        <a class="link-trabajemos" href="#">Trabajemos juntos</a>
+                        <img class="flecha-trabajemos" src="./img/arrow_white.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="img-acerca-container">
+                    <img src="./img/acerca_de_img.png" alt="" class="img-acerca">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Mi tienda -------------------------------------------------------------------------------------------------->
+
+    <section id="tienda" class="section-tienda container-md section-margin">
+        <div class="icono-tienda">
+            <img class="icon" src="./img/tienda_icono.svg" alt="">
+        </div>
+        <div class="titulo-tienda">
+            <h2>Mi tienda</h2>
+            <p>En mi tienda podrás encontrar una gran variedad de productos, así como también podrás adquirir prints de mis ilustraciones.</p>
+        </div>
+
+        <div class="destacado">
+            <h5>Producto destacado</h5>
+            <div class="producto-destacado-container">
+                <div class="img-destacado-container">
+                    <img src="./img/destacado.jpg" alt="" class="img-destacado">
+                </div>
+                <div class="texto-destacado">
+                    <h4>Libro para colorear</h4>
+                    <p>Libro para colorear con temática de animales acuáticos. Lo pueden disfrutar tanto chicos como grandes, gracias a la gran cantidad de detalles que tienen las ilustraciones.</p>
+                    <button class="btn btn-destacado">Agregar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-tienda">
+            <div class="navegacion">
+                <h5>Incio - Tazas</h5>
+            </div>
+
+            <div class="categorias">
+                <h5>Categorías</h5>
+                <ul>
+                    <li>Agendas</li>
+                    <li>Imanes</li>
+                    <li>Pañuelos</li>
+                    <li>Prints</li>
+                    <li>Remeras</li>
+                    <li>Stickers</li>
+                    <li>Tazas</li>
+                </ul>
+            </div>
+
+            <div class="productos">
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza4.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza de mariposas</h5>
+                    <p class="descripcion">330 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2400</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza2.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza primaveral</h5>
+                    <p class="descripcion">330 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2400</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza3.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza lobo lunar</h5>
+                    <p class="descripcion">350 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2600</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza5.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza zorro invernal</h5>
+                    <p class="descripcion">350 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2400</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza6.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza peces tropicales</h5>
+                    <p class="descripcion">340 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2300</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza7.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza flamenco</h5>
+                    <p class="descripcion">310 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2200</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza8.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza conejo</h5>
+                    <p class="descripcion">340 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2400</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+                
+                <div class="card-producto">
+                    <div class="img-producto-container">
+                        <img src="./img/Taza9.jpg" alt="" class="img-producto">
+                    </div>
+                    <h5 class="nombre-producto">Taza mariposa</h5>
+                    <p class="descripcion">340 cc</p>
+                
+                    <card class="card-cta">
+                        <h4 class="card-precio">$2400</h4>
+                        <button class="btn-card">Agregar
+                            <img class="carrito-card" src="./img/carrito-icono-naranja.svg" alt="">
+                        </button>
+                    </card>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contacto -------------------------------------------------------------------------------------------------->
+
+    <section id="contacto-seccion" class="contacto section-margin">
+        <div class="img-contacto-container">
+            <img src="./img/img_contacto.jpg" alt="" class="img-contacto">
+        </div>
+        <form class="form-contacto">
+            <div class="form-texto">
+                <h2>Trabajemos juntos</h2>
+                <p>Si querés encargar una comisión, no dudes en dejar tu mensaje y consultar cualquier duda que tengas. Me pondré en contacto contigo.</p>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre y apellido">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-form">Enviar</button>
+        </form>
+    </section>
+
+<!-- Redes Sociales -------------------------------------------------------------------------------------------->
+
+    <section class="redes container-md section-margin">
+        <div class="redes-texto">
+            <h2>Seguime en mis redes</h2>
+            <p>En mis redes sociales publico mis nuevas ilustraciones y comparto mi proceso detrás de escena. No te lo pierdas!</p>
+        </div>
+
+        <div class="links-redes">
+            <a class="link-red" href="#">
+                <img class="icon-red" src="./img/red_facebook.svg" alt="">
+            </a>
+
+            <a class="link-red" href="#">
+                <img class="icon-red" src="./img/red_instagram.svg" alt="">
+            </a>
+
+            <a class="link-red" href="#">
+                <img class="icon-red" src="./img/red_linkedin.svg" alt="">
+            </a>
+
+            <a class="link-red" href="#">
+                <img class="icon-red" src="./img/red_tiktok.svg" alt="">
+            </a>
+        </div>
+    </section>
+
+<!-- Footer -------------------------------------------------------------------------------------------->
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Acerca de</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Mi tienda</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 Bemariart</p>
+        </footer>
+    </div>
+
+</body>
+</html>
